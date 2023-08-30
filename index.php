@@ -2,6 +2,11 @@
 require_once 'connect.php';
 require_once 'functions.php';
 
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Headers: *');
+header('Access-Control-Allow-Methods: *');
+header('Access-Control-Allow-Credentials: true');
+header("Content-type: json/application");
 header("Content-type: json/application");
 
 
